@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecrire roman</title>
+    <link rel="stylesheet" href="choisir.css">
+</head>
+
+<body>
+
+    <form name="h" method="post" action="ajouter texte.php">
+        <p style="font-size: 33px; color: white;"> Vous pouvez ecrire votre roman personnel ici : </p>
+        <textarea type="text" name="t"></textarea><br><br>
+        <p style="font-size: 33px; color: white;">Type de roman :
+            <select name="type_select" id="select1" tyle="width:50px;"></p> 
+            <option value="">--Choisir un type--</option>
+            <option value="aventure">Aventure</option>
+            <option value="theatre">Theatre</option>
+            <option value="histoire">Histoire</option>
+            <option value="science">Science</option>
+           
+        </select>
+            <br><br><br>
+            <input style="font-size: 33px;" type="submit" value="Ajouter mon roman"></input>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.p1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 99px;
+    color: rgb(247, 239, 239);
+}
+
+.p2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: white;
+    float: left;
+    margin-left: 333px;
+}
+
+.p3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: white;
+    float: right;
+    margin-right: 333px;
+}
+
+body {
+    background-image: linear-gradient(rgba(26, 25, 25, 0.527), rgba(10, 10, 10, 0.5)), url("13.jpg");
+    background-size: cover;
+}
+
+textarea {
+    width: 921px;
+    height: 529px;
+    font-size: 22px;
+}
+
+#select1 {
+    width: 200px;
+    height: 44px;
+    font-size: 20px;
+}

@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(0.25turn, blue, brown, pink);
+}
+
+.form {
+    background-color: aliceblue;
+    margin-top: 6%;
+    margin-right: 35%;
+    margin-left: 35%;
+    padding: 3%;
+    box-shadow: 15px 15px black;
+}
+
+.form input {
+    font-family: 'Times New Roman', Times, serif;
+    outline: 4;
+    padding: 20px;
+    width: 90%;
+    margin: 0 0 20px;
+    font-size: 20px;
+}
+
+.form button {
+    background: #4CAF50;
+    font-size: 18px;
+    padding: 5%;
+    cursor: pointer;
+    width: 40%;
+    color: #FFFFFF;
+    margin-left: 30%;
+    border: 0;
+    outline: 0;
+}

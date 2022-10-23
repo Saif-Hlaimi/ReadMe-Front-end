@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="design sign in.css">
+    <script src="verification.js"></script>
+</head>
+
+<body>
+
+
+    <div class="form">
+        <form name="f" onsubmit="return validation()" action="login.php" method="post">
+            <input name="mail_log" type="email" placeholder="Email adress" />
+            <input name="pass_log" type="password" placeholder="Password" />
+            <button type="submit">login</button>
+            <p id="p1" class="message">Non enregistré ? <a href="sign up formulaire.html">Creé un compte</a></p>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

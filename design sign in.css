@@ -1,0 +1,41 @@
+.form {
+    background: #ffffff;
+    padding: 50px;
+    margin-top: 14%;
+    margin-right: 30%;
+    margin-left: 30%;
+    box-shadow: 15px 15px #000000;
+}
+
+.form input {
+    font-family: 'Times New Roman', Times, serif;
+    outline: 4;
+    background: #f5f1f1;
+    width: 90%;
+    border: 0;
+    margin: 0 0 20px;
+    padding: 20px;
+    font-size: 26px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 40%;
+    border: 0;
+    padding: 16px;
+    color: #FFFFFF;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+#p1 {
+    font-size: 20px;
+}
+
+body {
+    background: linear-gradient(0.25turn, blue, brown, pink);
+}
